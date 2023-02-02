@@ -1,84 +1,64 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{kim-etal-2023-TI,
+    abbr={EACL 2023},
+    title = "Teacher Intervention: Improving Convergence of Quantization Aware Training for Ultra-Low Precision Transformers",
+    author = "Kim, Minsoo  and
+      Shim, Kyuhong  and
+      Park, Seongmin  and
+      Wonyong, Sung  and
+      Choi, Jungwook",
+    booktitle = "Proceedings of the 2023 Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    abstract = "Pre-trained Transformer models such as BERT have shown great success in a wide range of applications, but at the cost of substantial increases in model complexity. Quantization-aware training (QAT) is a promising method to lower the implementation cost and energy consumption. However, aggressive quantization below 2-bit causes considerable accuracy degradation due to unstable convergence, especially when the downstream dataset is not abundant.
+This work proposes a proactive knowledge distillation method called \textit{Teacher Intervention} (TI) for fast converging QAT of ultra-low precision pre-trained Transformers. TI intervenes layer-wise signal propagation with the intact signal from the teacher to remove the interference of propagated quantization errors, smoothing loss surface of QAT and expediting the convergence. Furthermore, we propose a \textit{gradual} intervention mechanism to stabilize the recovery of subsections of Transformer layers from quantization. The proposed schemes enable fast convergence of QAT and improve the model accuracy regardless of the diverse characteristics of downstream fine-tuning tasks. We demonstrate that TI consistently achieves superior accuracy with significantly lower fine-tuning iterations on well-known Transformers of natural language processing as well as computer vision compared to the state-of-the-art QAT methods.",
+    selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{kim-etal-2022-understanding,
+    abbr={EMNLP 2022},
+    title = "Understanding and Improving Knowledge Distillation for Quantization Aware Training of Large Transformer Encoders",
+    author = "Kim, Minsoo  and
+      Lee, Sihwa  and
+      Hong, Suk-Jin  and
+      Chang, Du-Seong  and
+      Choi, Jungwook",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.450",
+    pages = "6713--6725",
+    abstract = "Knowledge distillation (KD) has been a ubiquitous method for model compression to strengthen the capability of a lightweight model with the transferred knowledge from the teacher. In particular, KD has been employed in quantization-aware training (QAT) of Transformer encoders like BERT to improve the accuracy of the student model with the reduced-precision weight parameters. However, little is understood about which of the various KD approaches best fits the QAT of Transformers. In this work, we provide an in-depth analysis of the mechanism of KD on attention recovery of quantized large Transformers. In particular, we reveal that the previously adopted MSE loss on the attention score is insufficient for recovering the self-attention information. Therefore, we propose two KD methods; attention-map and attention-output losses. Furthermore, we explore the unification of both losses to address task-dependent preference between attention-map and output losses. The experimental results on various Transformer encoder models demonstrate that the proposed KD methods achieve state-of-the-art accuracy for QAT with sub-2-bit weight quantization.",
+    selected={true},
+    pdf={2022.emnlp-main.450.pdf},
+    code="https://github.com/MarsJacobs/kd-qat-large-enc",
+    poster= {emnlp2022_mskim_poster_final.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{10.1145/3489517.3530505,
+abbr={DAC 2022},
+author = {Yu, Joonsang and Park, Junki and Park, Seongmin and Kim, Minsoo and Lee, Sihwa and Lee, Dong Hyun and Choi, Jungwook},
+title = {NN-LUT: Neural Approximation of Non-Linear Operations for Efficient Transformer Inference},
+year = {2022},
+isbn = {9781450391429},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3489517.3530505},
+doi = {10.1145/3489517.3530505},
+abstract = {Non-linear operations such as GELU, Layer normalization, and Soft-max are essential yet costly building blocks of Transformer models. Several prior works simplified these operations with look-up tables or integer computations, but such approximations suffer inferior accuracy or considerable hardware cost with long latency. This paper proposes an accurate and hardware-friendly approximation framework for efficient Transformer inference. Our framework employs a simple neural network as a universal approximator with its structure equivalently transformed into a Look-up table(LUT). The proposed framework called Neural network generated LUT(NN-LUT) can accurately replace all the non-linear operations in popular BERT models with significant reductions in area, power consumption, and latency.},
+booktitle = {Proceedings of the 59th ACM/IEEE Design Automation Conference},
+pages = {577–582},
+numpages = {6},
+keywords = {look-up table, neural network, non-linear function, transformer},
+location = {San Francisco, California},
+series = {DAC '22},
+pdf = {nn-lut_Camera_Ready_Paper.pdf}
 }
