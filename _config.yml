@@ -8,7 +8,7 @@ middle_name:
 last_name: Kim
 email: minsoo2333@hanyang.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Minsoo Kim webpage
+  This is Minsoo Kim webpage.
 footer_text: >
 keywords: # jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
