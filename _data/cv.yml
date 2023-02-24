@@ -15,6 +15,7 @@
       institution: Hanyang University, Seoul, South Korea
       year: 2021~
       description:
+        - GPT based generative LLM compression & auto-regressive text generation operation analysis.
         - Large Transformer encoder model QAT with Knowledge Distillation.
         - Improving Transformer encoder QAT convergence of few-sample fine-tuning.
         
