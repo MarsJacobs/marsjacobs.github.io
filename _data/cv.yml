@@ -18,6 +18,7 @@
         - GPT based generative LLM compression & auto-regressive text generation operation analysis.
         - Large Transformer encoder model QAT with Knowledge Distillation.
         - Improving Transformer encoder QAT convergence of few-sample fine-tuning.
+        - Advisor. Professor Jungwook Choi
         
     - title: B.S in Department of Electronic Engineering
       institution: Hanyang University, Seoul, South Korea
