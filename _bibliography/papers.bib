@@ -1,5 +1,22 @@
 ---
 ---
+@inproceedings{kim-etal-2023-TSLD,
+    abbr={NeurIPS 2023},
+    title = "Token-Scaled Logit Distillation for Ternary Weight Generative Language Models",
+    author = "Kim, Minsoo  and
+      Lee, Sihwa  and
+      Lee, Janhwan  and
+      Sukjin, Hong  and
+      Du-Seong, Chang and
+      Won Yong, Sung and
+      Choi, Jungwook",
+    booktitle = "Thirty-seventh Conference on Neural Information Processing System",
+    month = Dec,
+    year = "2023",
+    abstract = "Generative Language Models (GLMs) have shown impressive performance in tasks such as text generation, understanding, and reasoning. However, the large model size poses challenges for practical deployment. To solve this problem, Quantization-Aware Training (QAT) has become increasingly popular. However, current QAT methods for generative models have resulted in a noticeable loss of accuracy. To counteract this issue, we propose a novel knowledge distillation method specifically designed for GLMs. Our method, called token-scaled logit distillation, prevents overfitting and provides superior learning from the teacher model and ground truth. This research marks the first evaluation of ternary weight quantization-aware training of large-scale GLMs with less than 1.0 degradation in perplexity and no loss of accuracy in a reasoning task.",
+    pdf={https://arxiv.org/abs/2308.06744},
+    selected={true},
+}
 
 
 @inproceedings{kim-etal-2023-TI,
@@ -17,9 +34,10 @@
     publisher = "Association for Computational Linguistics",
     abstract = "Pre-trained Transformer models such as BERT have shown great success in a wide range of applications, but at the cost of substantial increases in model complexity. Quantization-aware training (QAT) is a promising method to lower the implementation cost and energy consumption. However, aggressive quantization below 2-bit causes considerable accuracy degradation due to unstable convergence, especially when the downstream dataset is not abundant.
 This work proposes a proactive knowledge distillation method called \textit{Teacher Intervention} (TI) for fast converging QAT of ultra-low precision pre-trained Transformers. TI intervenes layer-wise signal propagation with the intact signal from the teacher to remove the interference of propagated quantization errors, smoothing loss surface of QAT and expediting the convergence. Furthermore, we propose a \textit{gradual} intervention mechanism to stabilize the recovery of subsections of Transformer layers from quantization. The proposed schemes enable fast convergence of QAT and improve the model accuracy regardless of the diverse characteristics of downstream fine-tuning tasks. We demonstrate that TI consistently achieves superior accuracy with significantly lower fine-tuning iterations on well-known Transformers of natural language processing as well as computer vision compared to the state-of-the-art QAT methods.",
-    pdf={eacl2023_mskim_ti_arxiv.pdf},
+    pdf={https://aclanthology.org/2023.eacl-main.64},
     code="https://github.com/MarsJacobs/ti-kd-qat",
-    selected={true}
+    selected={true},
+    poster= {eacl2023_mskim_poster_final_ver}
 }
 
 @inproceedings{kim-etal-2022-understanding,
@@ -39,7 +57,7 @@ This work proposes a proactive knowledge distillation method called \textit{Teac
     pages = "6713--6725",
     abstract = "Knowledge distillation (KD) has been a ubiquitous method for model compression to strengthen the capability of a lightweight model with the transferred knowledge from the teacher. In particular, KD has been employed in quantization-aware training (QAT) of Transformer encoders like BERT to improve the accuracy of the student model with the reduced-precision weight parameters. However, little is understood about which of the various KD approaches best fits the QAT of Transformers. In this work, we provide an in-depth analysis of the mechanism of KD on attention recovery of quantized large Transformers. In particular, we reveal that the previously adopted MSE loss on the attention score is insufficient for recovering the self-attention information. Therefore, we propose two KD methods; attention-map and attention-output losses. Furthermore, we explore the unification of both losses to address task-dependent preference between attention-map and output losses. The experimental results on various Transformer encoder models demonstrate that the proposed KD methods achieve state-of-the-art accuracy for QAT with sub-2-bit weight quantization.",
     selected={true},
-    pdf={2022.emnlp-main.450.pdf},
+    pdf={https://aclanthology.org/2022.emnlp-main.450},
     code="https://github.com/MarsJacobs/kd-qat-large-enc",
     poster= {emnlp2022_mskim_poster_final.pdf}
 }
@@ -62,5 +80,6 @@ numpages = {6},
 keywords = {look-up table, neural network, non-linear function, transformer},
 location = {San Francisco, California},
 series = {DAC '22},
-pdf = {nn-lut_Camera_Ready_Paper.pdf}
+selected={true},
+pdf = {https://arxiv.org/abs/2112.02191}
 }
