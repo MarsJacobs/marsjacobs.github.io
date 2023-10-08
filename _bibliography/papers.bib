@@ -18,12 +18,14 @@
     selected={true},
 }
 
-@inproceedings{anonymous2023enhancing,
+@inproceedings{lee-etal-2023enhancing,
 abbr={EMNLP 2023},
 title={Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization},
 author={Lee*, Janghwan and Kim*, Minsoo and Baek, Seungcheol and Hwang Seokjoong and Sung, Wonyong and Choi, Jungwook},
 booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (Main Track) to appear},
 year={2023},
+abstract = "Large Language Models (LLMs) are proficient in natural language processing tasks, but their deployment is often restricted by extensive parameter sizes and computational demands. This paper focuses on post-training quantization (PTQ) in LLMs, specifically 4-bit weight and 8-bit activation (W4A8) quantization, to enhance computational efficiency—a topic less explored compared to weight-only quantization. We present two innovative techniques: activation-quantization-aware scaling (AQAS) and sequence-length-aware calibration (SLAC) to optimize PTQ by considering the combined effects on weights and activations and aligning calibration sequence lengths. Moreover, we introduce dINT, a hybrid data format combining integer and denormal representations, to address the underflow issue in W4A8 quantization, where small values are rounded to zero. Through rigorous evaluations of LLMs, including OPT and LLaMA, we demonstrate that our techniques significantly boost task accuracies to levels comparable with full-precision models. By developing arithmetic units compatible with dINT, we further confirm that our methods yield 2x
+ hardware efficiency.",
 selected={true},
 }
 
@@ -36,7 +38,7 @@ selected={true},
       Park, Seongmin  and
       Wonyong, Sung  and
       Choi, Jungwook",
-    booktitle = "The 17th Conference of the European Chapter of the Association for Computational Linguistics (Main Track)",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (Main Track)",
     month = May,
     year = "2023",
     address = "Dubrovnik, Croatia",
