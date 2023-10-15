@@ -3,8 +3,10 @@
   contents:
     - name: Full Name
       value: Minsoo Kim
-    - name: Date of Birth
-      value: 27th August 1995
+    - name: Location
+      value: Seoul, South Korea
+    # - name: Birth
+    #   value: 27th August 1995
     - name: Languages
       value: Korean, English
 
