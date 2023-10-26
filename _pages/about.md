@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I am Minsoo Kim, first year Ph.D. student in the Artificial Intelligence Hardware & Algorithm lab at [Hanyang University](https://www.hanyang.ac.kr/web/eng). I am fortunate to be advised by professor [Jungwook Choi](https://jchoi-hyu.github.io/). 
+Hi! I am Minsoo Kim, I'm currently in my third year of the integrated Ph.D. program in the Artificial Intelligence Hardware & Algorithm lab at [Hanyang University](https://www.hanyang.ac.kr/web/eng). I am fortunate to be advised by professor [Jungwook Choi](https://jchoi-hyu.github.io/). 
 
 My core research focuses on understanding the effects of Quantization in language models across diverse NLP tasks. Using these insights, I've actively applied **Knowledge Distillation** in **Quantization Aware Training (QAT)** to enhance the robust performance of quantized language models, aimed for efficient inference.
 
