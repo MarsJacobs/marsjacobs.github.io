@@ -23,11 +23,13 @@
 abbr={EMNLP 2023},
 title={Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization},
 author={Lee*, Janghwan and Kim*, Minsoo and Baek, Seungcheol and Hwang, Seokjoong and Sung, Wonyong and Choi, Jungwook},
-booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (Main Track) to appear},
+booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (Main Track), *Co-First author},
 year={2023},
+address = "Singapore",
+publisher = "Association for Computational Linguistics",
 abstract = "Large Language Models (LLMs) are proficient in natural language processing tasks, but their deployment is often restricted by extensive parameter sizes and computational demands. This paper focuses on post-training quantization (PTQ) in LLMs, specifically 4-bit weight and 8-bit activation (W4A8) quantization, to enhance computational efficiency—a topic less explored compared to weight-only quantization. We present two innovative techniques: activation-quantization-aware scaling (AQAS) and sequence-length-aware calibration (SLAC) to optimize PTQ by considering the combined effects on weights and activations and aligning calibration sequence lengths. Moreover, we introduce dINT, a hybrid data format combining integer and denormal representations, to address the underflow issue in W4A8 quantization, where small values are rounded to zero. Through rigorous evaluations of LLMs, including OPT and LLaMA, we demonstrate that our techniques significantly boost task accuracies to levels comparable with full-precision models. By developing arithmetic units compatible with dINT, we further confirm that our methods yield 2x
  hardware efficiency.",
-pdf={https://arxiv.org/abs/2311.05161},
+pdf={https://aclanthology.org/2023.emnlp-main.910},
 selected={true},
 }
 
