@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-03-11
 inline: true
 ---
 
-A simple inline announcement.
+I am starting as a PhD Intern in [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research) :fire::fire: (Mar. 2024 - Sep. 2024, Seoul)

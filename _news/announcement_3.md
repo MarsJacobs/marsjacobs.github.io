@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: Oct 2023
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+1 paper accepted and attending @ EMNLP 23 🇸🇬\\
+1 paper accepted and attending @ NeurIPS 23 🇺🇸
+
