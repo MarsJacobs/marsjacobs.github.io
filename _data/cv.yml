@@ -10,21 +10,21 @@
     - name: Languages
       value: Korean, English
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D Candidate in Department of Electronic Engineering
-      institution: Hanyang University, Seoul, South Korea
-      year: 2021~
-      description:
-        - LLM quantization (PTQ, QAT).
-        - Transformer encoder model QAT with Knowledge Distillation.
-        - Improving Transformer encoder QAT convergence of few-sample fine-tuning.
-        - Advisor. Professor Jungwook Choi
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Ph.D Candidate in Department of Electronic Engineering
+#       institution: Hanyang University, Seoul, South Korea
+#       year: 2021~
+#       description:
+#         - LLM quantization (PTQ, QAT).
+#         - Transformer encoder model QAT with Knowledge Distillation.
+#         - Improving Transformer encoder QAT convergence of few-sample fine-tuning.
+#         - Advisor. Professor Jungwook Choi
         
-    - title: B.S in Department of Electronic Engineering
-      institution: Hanyang University, Seoul, South Korea
-      year: 2021
-      description:
-        - Thesis. Improving training method for very low bit weight quantization of Light Deep Learning Model
-        - Advisor. Professor Jungwook Choi
+#     - title: B.S in Department of Electronic Engineering
+#       institution: Hanyang University, Seoul, South Korea
+#       year: 2021
+#       description:
+#         - Thesis. Improving training method for very low bit weight quantization of Light Deep Learning Model
+#         - Advisor. Professor Jungwook Choi
