@@ -1,5 +1,36 @@
 ---
 ---
+
+@inproceedings{kim-etal-2024-RALoRA,
+    abbr={ACL 2024},
+    title = "RA-LoRA: Rank-Adaptive Parameter-Efficient Fine-Tuning for Accurate 2-bit Quantized Large Language Models",
+    author = "Kim, Minsoo  and
+      Lee, Sihwa  and
+      Sung, Won Yong and
+      Choi, Jungwook",
+    booktitle = "In Findings of the Association for Computational Linguistics: ACL 2024",
+    month = Aug,
+    year = "2024",
+    abstract = "Deploying large language models (LLMs) with their extensive parameters and high memory demands challenges computational efficiency, particularly in fine-tuning for specific applications with limited resources. Techniques like Low-Rank Adaptation (LoRA) help by training a smaller, modifiable extension of the base model to reduce memory usage. However, combining quantization with LoRA, especially in low-bit scenarios, can lead to performance losses due to quantization errors. Our innovative Rank-Adaptive LoRA (RA-LoRA) addresses this by dynamically adjusting the adapter's rank using rank-subspace analysis, optimizing performance with fewer parameters. We tested RA-LoRA on state-of-the-art LLMs for 2-bit efficient fine-tuning, showing it can improve model accuracy with minimal trainable parameters, marking a leap forward in quantization-aware fine-tuning methods and highlighting the significance of rank dynamics in optimizing quantized LLMs.",
+    selected={true},
+}
+
+@inproceedings{lee-etal-2024-QDPO,
+    abbr={ACL 2024},
+    title = "Improving Conversational Abilities of Quantized Large Language Models via Direct Preference Alignment",
+    author = "Lee, Janghwan* and
+      Park, Seongmin*  and
+      Hong, Suk-Jin  and
+      Kim, Minsoo  and
+      Chang, Du-Seong  and
+      Choi, Jungwook",
+    booktitle = "In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+    month = Aug,
+    year = "2024",
+    abstract = "The rapid advancement of large language models (LLMs) has facilitated their transformation into conversational chatbots that can grasp contextual nuances and generate pertinent sentences, closely mirroring human values through advanced techniques such as instruction tuning and reinforcement learning from human feedback (RLHF). However, the computational efficiency required for LLMs, achieved through techniques like post-training quantization (PTQ), presents challenges such as token-flipping that can impair chatbot performance. In response, we propose a novel preference alignment approach, quantization-aware direct preference optimization (QDPO), that aligns quantized LLMs with their full-precision counterparts, improving conversational abilities. Evaluated on two instruction-tuned LLMs in various languages, QDPO demonstrated superior performance in improving conversational abilities compared to established PTQ and knowledge-distillation fine-tuning techniques, marking a significant step forward in the development of efficient and effective conversational LLMs.",
+    selected={true},
+}
+
 @inproceedings{kim-etal-2023-TSLD,
     abbr={NeurIPS 2023},
     title = "Token-Scaled Logit Distillation for Ternary Weight Generative Language Models",
