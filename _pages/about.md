@@ -16,4 +16,6 @@ social: false  # includes social icons at the bottom of the page
 
 Hi! I am Minsoo Kim, Ph.D. student in the [AI Hardware & Algorithm lab](https://sites.google.com/view/aihalab) at Hanyang University advided by professor [Jungwook Choi](https://jchoi-hyu.github.io/) and working as a PhD intern in [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research).
 
-My core research centers on enhancing the *efficient algorithm for generative models*, with a specific focus on understanding the effects of Quantization and Distillation across diverse NLP tasks aimed for efficient inference of LLMs. Beyond, I am passionated into advanced techniques for fine-tuning LLMs, aiming to fully unlock the potential of specialized LLMs. 
+My core research centers on enhancing the *efficient algorithm for generative models*, with a specific focus on understanding the effects of Quantization and Knowledge Distillation across diverse NLP tasks aimed for efficient inference of LLMs. Beyond this, I am passionate about exploring the challenges presented by long context LLMs and Visual Language Models (LVMs), aiming to optimize these models to meet the demands of real-world applications efficiently.
+
+ 
