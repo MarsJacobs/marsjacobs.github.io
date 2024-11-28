@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-09-20
+date: 2024-11-28
 inline: true
 ---
 
-1 paper accepted and attending @ EMNLP 24 🇺🇸
+I’m joining Apple AIML as a ML Research Intern for Mar-Sep 2025!
