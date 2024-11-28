@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-03-11
+date: 2023-11-27
 inline: true
 ---
 
-I am starting as a PhD Intern in [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research) :fire:
+Selcted as a winner in [Qualcomm Innovation Fellowship 2023](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2023-south-korea) :trophy:
