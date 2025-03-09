@@ -9,7 +9,25 @@
       Chang, Simyung",
     booktitle = "Under Review",
     year = "2025",
-    abstract = "We present InfiniPot-V, a training-free Key-Value (KV) cache compression framework for streaming video understanding on multimodal large language models (MLLMs) under memory-constrained environments. Existing KV cache compression methods rely on user queries to determine token importance and require computing the full KV cache before compression. These approaches are impractical for processing real-time streaming video on memory-constrained devices, where user queries are unavailable during compression and memory usage must remain fixed. To address this, InfiniPot-V introduces a query-agnostic continual KV cache control framework that maintains fixed memory usage. Our approach harnesses the inherent spatiotemporal redundancy in video through two criteria: Temporal-axis Redundancy (TaR), which captures redundant visual tokens by measuring similarity across temporal frames, and Value Norm (VaN), which prioritizes semantically important tokens based on their value embedding magnitudes. Experiments on three representative long-video understanding benchmarks show that InfiniPot-V reduces memory usage by up to 94\% while maintaining comparable accuracy to full KV caches. We also demonstrate InfiniPot-V's superior answering capabilities in multi-turn video understanding QA scenarios. Our findings underscore InfiniPot-V's potential for real-world streaming MLLM applications.",
+    abstract = "",
+    selected={true},
+}
+
+@inproceedings{lee-etal-2025-RiLQ,
+    abbr={AAAI 2025},
+    title = "RILQ: Rank-Insensitive LoRA-based Quantization Error Compensation for Boosting 2-bit Large Language Model Accuracy",
+    author = "Lee, Geonho  and
+      Lee, Janghwan  and
+      Hong, Sukjin and
+      Kim, Minsoo and
+      Ahn, Euijai and
+      Chang, Du-Seong and
+      Choi, Jungwook",
+    booktitle = "39th Annual AAAI Conference on Artificial Intelligence,",
+    month = Feb,
+    year = "2025",
+    pdf={https://arxiv.org/abs/2412.01129},
+    abstract = "Low-rank adaptation (LoRA) has become the dominant method for parameter-efficient LLM fine-tuning, with LoRA-based quantization error compensation (LQEC) emerging as a powerful tool for recovering accuracy in compressed LLMs. However, LQEC has underperformed in sub-4-bit scenarios, with no prior investigation into understanding this limitation. We propose RILQ (Rank-Insensitive LoRA-based Quantization Error Compensation) to understand fundamental limitation and boost 2-bit LLM accuracy. Based on rank analysis revealing model-wise activation discrepancy loss’s rank-insensitive nature, RILQ employs this loss to adjust adapters cooperatively across layers, enabling robust error compensation with low-rank adapters. Evaluations on LLaMA-2 and LLaMA-3 demonstrate RILQ’s consistent improvements in 2-bit quantized inference across various state-of-the-art quantizers and enhanced accuracy in task-specific fine-tuning. RILQ maintains computational efficiency comparable to existing LoRA methods, enabling adapter-merged weight-quantized LLM inference with significantly enhanced accuracy, making it a promising approach for boosting 2-bit LLM performance.",
     selected={true},
 }
 
