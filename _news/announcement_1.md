@@ -4,4 +4,4 @@ date: 2025-03-31
 inline: true
 ---
 
-I am starting as a PhD Intern in [Apple](https://machinelearning.apple.com/)
+I am starting as a PhD Intern at Apple 
