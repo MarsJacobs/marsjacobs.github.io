@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-03-11
+date: 2024-05-16
 inline: true
 ---
 
-I am starting as a PhD Intern in [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research) :fire:
+2 papers accepted and attending @ ACL 24 🇹🇭

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-09-20
+date: 2025-03-31
 inline: true
 ---
 
-1 paper accepted and attending @ EMNLP 24 🇺🇸
+I am starting as a PhD Intern in [Apple](https://machinelearning.apple.com/)
