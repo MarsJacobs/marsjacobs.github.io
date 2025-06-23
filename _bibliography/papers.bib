@@ -1,5 +1,19 @@
 ---
 ---
+@inproceedings{kim-etal-2025-InfiniPot-V,
+    abbr={Preprint},
+    title = "InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding",
+    author = "Kim, Minsoo  and
+      Shim, Kyuhong  and
+      Choi, Jungwook and
+      Chang, Simyung",
+    booktitle = "",
+    month = June,
+    year = "2025",
+    pdf={https://arxiv.org/abs/2506.15745v1},
+    abstract = "Modern multimodal large language models (MLLMs) can reason over hour-long video, yet their key-value (KV) cache grows linearly with time--quickly exceeding the fixed memory of phones, AR glasses, and edge robots. Prior compression schemes either assume the whole video and user query are available offline or must first build the full cache, so memory still scales with stream length. InfiniPot-V is the first training-free, query-agnostic framework that enforces a hard, length-independent memory cap for streaming video understanding. During video encoding it monitors the cache and, once a user-set threshold is reached, runs a lightweight compression pass that (i) removes temporally redundant tokens via Temporal-axis Redundancy (TaR) metric and (ii) keeps semantically significant tokens via Value-Norm (VaN) ranking. Across four open-source MLLMs and four long-video and two streaming-video benchmarks, InfiniPot-V cuts peak GPU memory by up to 94%, sustains real-time generation, and matches or surpasses full-cache accuracy--even in multi-turn dialogues. By dissolving the KV cache bottleneck without retraining or query knowledge, InfiniPot-V closes the gap for on-device streaming video assistants.",
+    selected={true},
+}
 
 @inproceedings{lee-etal-2025-RiLQ,
     abbr={AAAI 2025},
