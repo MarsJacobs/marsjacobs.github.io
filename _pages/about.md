@@ -16,6 +16,6 @@ social: false  # includes social icons at the bottom of the page
 
 Hi! I am Minsoo Kim, final year Ph.D. student in the [AI Hardware & Algorithm lab](https://sites.google.com/view/aihalab) at Hanyang University advided by professor [Jungwook Choi](https://jchoi-hyu.github.io/).
 
-My core research centers on enhancing the *efficient algorithm for generative language models*, with a specific focus on *real-world applications* with Large Language Models (LLMs) and Large Multimodal Models (LMMs). My research addresses key efficiency challenges in these models, including long context processing, efficient retrieval mechanisms, and inference acceleration (EMNLP'24). Beyond this, I am deeply interested in developing memory-efficient solutions through model quantization (NeurIPS'23) and parameter-efficient fine-tuning techniques (ACL'24). [CV(ver241128)](https://marsjacobs.github.io/assets/pdf/resume_mskim_ver1128.pdf)
+My core research centers on enhancing the *efficient algorithm for generative language models*, with a specific focus on *real-world applications* with Large Language Models (LLMs) and Large Multimodal Models (LMMs). My research addresses key efficiency challenges in these models, including long context processing, efficient retrieval mechanisms, and inference acceleration (EMNLP'24). Beyond this, I am deeply interested in developing memory-efficient solutions through model quantization (NeurIPS'23) and parameter-efficient fine-tuning techniques (ACL'24). [CV](https://marsjacobs.github.io/assets/pdf/MinsooKim_CV_ver2506.pdf)
 
  
