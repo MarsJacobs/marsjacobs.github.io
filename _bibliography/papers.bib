@@ -1,5 +1,22 @@
 ---
 ---
+
+@inproceedings{kim-etal-2025-EpiCache,
+    abbr={Preprint},
+    title = "EpiCache: Episodic KV Cache Management for Long Conversational Question Answering",
+    author = "Kim, Minsoo  and
+      Arnav Kundu  and
+      Han-Byul Kim and
+      Richa Dixit and
+      Minsik Cho",
+    month = Sep,
+    year = "2025",
+    pdf={https://arxiv.org/abs/2509.17396},
+    abstract = "Modern large language models (LLMs) extend context lengths to up to millions of tokens, enabling AI assistants to generate coherent and personalized responses grounded in long conversational histories. This ability, however, hinges on Key-Value (KV) caching, whose memory grows linearly with dialogue length and quickly becomes the bottleneck in resource-constrained environments. An active line of research for reducing memory bottleneck is KV cache compression, which seeks to limit cache size while preserving accuracy. Yet existing methods face two major limitations: (i) evicting the KV cache after full-context prefill causes unbounded peak memory, and (ii) query-dependent eviction narrows the cache to a single query, leading to failure cases in multi-turn conversations. We introduce EpiCache, a training-free KV cache management framework for long conversational question answering (LongConvQA) under fixed memory budgets. EpiCache bounds cache growth through block-wise prefill and preserves topic-relevant context via episodic KV compression, which clusters conversation history into coherent episodes and applies episode-specific KV cache eviction. We further design an adaptive layer-wise budget allocation strategy that measures each layer's sensitivity to eviction and distributes the memory budget across layers accordingly. Across three LongConvQA benchmarks, EpiCache improves accuracy by up to 40% over recent baselines, sustains near-full KV accuracy under 4-6x compression, and reduces latency and memory by up to 2.4x and 3.5x, thereby enabling efficient multi-turn interaction under strict resource constraints.",
+    selected={true},
+    code="https://github.com/apple/ml-epicache",
+}
+
 @inproceedings{kim-etal-2025-InfiniPot-V,
     abbr={NeurIPS 2025},
     title = "InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding",
@@ -133,7 +150,6 @@ This work proposes a proactive knowledge distillation method called \textit{Teac
     pdf={https://aclanthology.org/2023.eacl-main.64},
     code="https://github.com/MarsJacobs/ti-kd-qat",
     selected={true},
-    poster= {eacl2023_mskim_poster_final_ver.pdf}
 }
 
 @inproceedings{kim-etal-2022-understanding,
@@ -155,7 +171,6 @@ This work proposes a proactive knowledge distillation method called \textit{Teac
     selected={true},
     pdf={https://aclanthology.org/2022.emnlp-main.450},
     code="https://github.com/MarsJacobs/kd-qat-large-enc",
-    poster= {emnlp2022_mskim_poster_final.pdf}
 }
 
 
