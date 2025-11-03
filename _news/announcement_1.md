@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-11-03
+date: 2025-09-19
 inline: true
 ---
 
-I'll be joining Apple MIND team (SEA) next year
+1 paper accepted and attending @ NeurIPS 25 🇺🇸
