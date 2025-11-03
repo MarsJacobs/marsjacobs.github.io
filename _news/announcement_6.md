@@ -1,9 +1,7 @@
 ---
 layout: post
-date: Oct 2023
+date: 2024-03-11
 inline: true
 ---
 
-1 paper accepted and attending @ EMNLP 23 🇸🇬\\
-1 paper accepted and attending @ NeurIPS 23 🇺🇸
-
+I am starting as a PhD Intern at [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research)

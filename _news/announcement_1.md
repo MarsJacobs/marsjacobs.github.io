@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-03-31
+date: 2025-11-03
 inline: true
 ---
 
-I am starting as a PhD Intern at Apple 
+I'll be joining Apple  MIND team (SEA) as ML Researcher next year!
