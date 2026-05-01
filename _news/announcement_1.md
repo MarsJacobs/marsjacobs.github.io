@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-09-19
+date: 2026-04-01
 inline: true
 ---
 
-1 paper accepted and attending @ NeurIPS 25 🇺🇸
+1 paper accepted and attending @ ICML 26 🇰🇷

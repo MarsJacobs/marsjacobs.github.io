@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat /Users/minsoo/workspace/marsjacobs.github.io/_pages/*.md)"
+    ]
+  }
+}

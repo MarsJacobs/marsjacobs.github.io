@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-05-16
+date: 2024-11-01
 inline: true
 ---
 
-2 papers accepted and attending @ ACL 24 🇹🇭
+I am starting as a PhD Intern at Apple

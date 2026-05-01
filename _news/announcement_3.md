@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-09-20
+date: 2025-09-19
 inline: true
 ---
 
-1 paper accepted and attending @ EMNLP 24 🇺🇸
+1 paper accepted and attending @ NeurIPS 25 🇺🇸
