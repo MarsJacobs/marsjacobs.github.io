@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minsoo Kim</title>
+    <meta name="author" content="Minsoo Kim" />
+    <meta name="description" content="Minsoo Kim's personal website." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤗</text></svg>" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" />
+
+    <style>
+      body {
+        max-width: 780px;
+        padding: 25px 10px 40px;
+        margin: 0 auto;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 375;
+        font-size: 15px;
+        background-color: #fdfdfd;
+        color: #1a1a1a;
+        line-height: 1.4;
+      }
+
+      strong { font-weight: 500; }
+
+      h1 { margin: 0; line-height: 1; font-weight: 500; }
+
+      h2 {
+        border-bottom: 1px solid #ddd;
+        margin: 1.4em 0 0.2em;
+        padding-bottom: 4px;
+        font-weight: 500;
+      }
+
+      a { color: #1772d0; text-decoration: none; }
+      a:hover { color: #f09228; }
+
+      /* Header */
+      .header { display: flex; align-items: center; justify-content: center; gap: 30px; }
+      .header .photo { flex: 0 0 200px; max-width: 200px; }
+      .header .photo img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; display: block; }
+      .header .intro { text-align: center; }
+      .header .intro .icons { margin-top: 10px; font-size: 0; }
+      .header .intro .icons a { font-size: 22px; margin: 0 7px; }
+      .header .intro .contact { margin-top: 10px; font-size: 0.95em; }
+
+      /* About */
+      .about p { text-align: justify; margin: 8px 0; }
+
+      /* Honors / Services */
+      .entries p { margin: 5px 0; }
+
+      /* Experience (kept roomy) */
+      .exp-item { display: flex; align-items: center; gap: 24px; margin: 22px 0; }
+      .exp-item .logo {
+        flex: 0 0 90px; width: 90px; height: 44px;
+        display: flex; align-items: center; justify-content: center;
+      }
+      .exp-item .logo img { max-width: 90px; max-height: 28px; object-fit: contain; }
+      .exp-item .logo i { font-size: 34px; color: #111; }
+      .exp-item .role { font-weight: 500; }
+      .exp-item .meta { color: #777; font-size: 0.9em; margin-top: 2px; }
+
+      /* Publications */
+      .pub-toggle { display: flex; gap: 8px; margin: 12px 0 6px; }
+      .pub-btn {
+        border: 1px solid #ddd; background: #fff; padding: 6px 12px;
+        border-radius: 8px; cursor: pointer; font-family: inherit;
+        font-weight: 450; font-size: 0.9em; color: #333;
+      }
+      .pub-btn.active {
+        border-color: #1772d0; color: #1772d0;
+        box-shadow: 0 0 0 2px rgba(23, 114, 208, 0.12) inset;
+      }
+      .pub-item { margin: 12px 0; }
+      .pub-item .title { font-weight: 500; }
+      .venue { font-weight: 500; }
+      .highlight { color: #f09228; font-weight: 500; }
+
+      @media (max-width: 600px) {
+        .header { flex-direction: column; gap: 14px; }
+        .header .photo { flex-basis: 60%; max-width: 60%; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="photo">
+        <img src="assets/img/profile.jpg" alt="Minsoo Kim" />
+      </div>
+      <div class="intro">
+        <h1>Minsoo Kim</h1>
+        <p style="margin: 6px 0 0">Machine Learning Researcher, Apple</p>
+        <div class="icons">
+          <a href="https://scholar.google.com/citations?user=_oTZm60AAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/MarsJacobs" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/minsoo2333" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/minsoo-kim-37268a1b0" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="assets/pdf/minsoo_cv_2026.pdf" title="CV"><i class="ai ai-cv"></i></a>
+        </div>
+        <div class="contact">minsoo2333 [at] hanyang.ac.kr</div>
+      </div>
+    </div>
+
+    <h2>About</h2>
+    <div class="about">
+      <p>
+        Hi! I am Minsoo Kim, a Machine Learning Researcher at the Apple MIND team.
+        I received my Ph.D. from the
+        <a href="https://sites.google.com/view/aihalab">AI Hardware &amp; Algorithm Lab</a>
+        at Hanyang University, advised by Professor
+        <a href="https://jchoi-hyu.github.io/">Jungwook Choi</a>.
+        Here is my <a href="assets/pdf/minsoo_cv_2026.pdf">CV</a>.
+      </p>
+      <p>
+        My research focuses on efficient algorithms that make large language models
+        practical to deploy in the real world. I have worked on model quantization (QAT),
+        knowledge distillation, and long-context optimization via KV cache compression
+        for LLMs and MLLMs. I am currently interested in agentic memory, efficient
+        conversational LLMs, and long-context LLMs/MLLMs.
+      </p>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="experience">
+      <div class="exp-item">
+        <div class="logo"><i class="fab fa-apple"></i></div>
+        <div>
+          <div class="role">Machine Learning Researcher, Apple</div>
+          <div class="meta">Mar. 2026 &ndash; Present &middot; Seattle, US</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="logo"><i class="fab fa-apple"></i></div>
+        <div>
+          <div class="role">Research Intern, Apple</div>
+          <div class="meta">Mar. 2025 &ndash; Sep. 2025 &middot; Seattle, US</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="logo"><img src="assets/img/qualcomm.svg" alt="Qualcomm" /></div>
+        <div>
+          <div class="role">Research Intern, Qualcomm AI Research</div>
+          <div class="meta">Mar. 2024 &ndash; Mar. 2025 &middot; Seoul, Korea</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Publications</h2>
+    <div class="pub-toggle" role="tablist" aria-label="Publications filter">
+      <button id="btn-selected" class="pub-btn active" role="tab" aria-selected="true">Selected</button>
+      <button id="btn-all" class="pub-btn" role="tab" aria-selected="false">All</button>
+    </div>
+    <p style="font-size: 0.85em; color: #888; margin: 4px 0">* denotes equal contribution</p>
+
+    <div id="pub-list">
+      <div class="pub-item selected">
+        <div class="title">EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments</div>
+        <u>Minsoo Kim</u>, Arnav Kundu, Han-Byul Kim, Richa Dixit, Minsik Cho<br />
+        <span class="venue">ICML 2026</span><br />
+        <a href="https://arxiv.org/abs/2509.17396">paper</a> | <a href="https://github.com/apple/ml-epicache">code</a>
+      </div>
+
+      <div class="pub-item">
+        <div class="title">BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference</div>
+        Janghyeon Kim, <u>Minsoo Kim</u>, Kyuhong Shim, Jungwook Choi<br />
+        <span class="venue">ICML 2026</span>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video Understanding</div>
+        <u>Minsoo Kim</u>, Kyuhong Shim, Jungwook Choi, Simyung Chang<br />
+        <span class="venue">NeurIPS 2025</span><br />
+        <a href="https://arxiv.org/abs/2506.15745">paper</a> | <a href="https://github.com/aiha-lab/InfiniPot-V">code</a>
+      </div>
+
+      <div class="pub-item">
+        <div class="title">Learning Contextual Retrieval for Robust Conversational Search</div>
+        Seunghan Yang, Juntae Lee, Jihwan Bang, Kyuhong Shim, <u>Minsoo Kim</u>, Simyung Chang<br />
+        <span class="venue">EMNLP 2025</span><br />
+        <a href="https://arxiv.org/abs/2509.19700">paper</a>
+      </div>
+
+      <div class="pub-item">
+        <div class="title">RILQ: Rank-Insensitive LoRA-based Quantization Error Compensation for Boosting 2-bit Large Language Model Accuracy</div>
+        Geonho Lee*, Janghwan Lee*, Sukjin Hong*, <u>Minsoo Kim</u>, Euijai Ahn, Du-Seong Chang, Jungwook Choi<br />
+        <span class="venue">AAAI 2025</span><br />
+        <a href="https://arxiv.org/abs/2412.01129">paper</a>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">InfiniPot: Infinite Context Processing on Memory-Constrained LLMs</div>
+        <u>Minsoo Kim</u>, Kyuhong Shim, Jungwook Choi, Simyung Chang<br />
+        <span class="venue">EMNLP 2024</span><br />
+        <a href="https://arxiv.org/abs/2410.01518">paper</a>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">RA-LoRA: Rank-Adaptive Parameter-Efficient Fine-Tuning for Accurate 2-bit Quantized Large Language Models</div>
+        <u>Minsoo Kim</u>, Sihwa Lee, Won Yong Sung, Jungwook Choi<br />
+        <span class="venue">ACL 2024 (Findings)</span><br />
+        <a href="https://aclanthology.org/2024.findings-acl.933">paper</a>
+      </div>
+
+      <div class="pub-item">
+        <div class="title">Improving Conversational Abilities of Quantized Large Language Models via Direct Preference Alignment</div>
+        Janghwan Lee*, Seongmin Park*, Suk-Jin Hong, <u>Minsoo Kim</u>, Du-Seong Chang, Jungwook Choi<br />
+        <span class="venue">ACL 2024</span><br />
+        <a href="https://aclanthology.org/2024.acl-long.612">paper</a>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">Token-Scaled Logit Distillation for Ternary Weight Generative Language Models</div>
+        <u>Minsoo Kim</u>, Sihwa Lee, Janghwan Lee, Suk-Jin Hong, Du-Seong Chang, Won Yong Sung, Jungwook Choi<br />
+        <span class="venue">NeurIPS 2023</span><br />
+        <a href="https://openreview.net/forum?id=FUnEkOkodU">paper</a> | <a href="https://github.com/aiha-lab/TSLD">code</a>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">Enhancing Computation Efficiency in Large Language Models through Weight and Activation Quantization</div>
+        Janghwan Lee*, <u>Minsoo Kim</u>*, Seungcheol Baek, Seokjoong Hwang, Wonyong Sung, Jungwook Choi<br />
+        <span class="venue">EMNLP 2023</span><br />
+        <a href="https://aclanthology.org/2023.emnlp-main.910">paper</a>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">Teacher Intervention: Improving Convergence of Quantization Aware Training for Ultra-Low Precision Transformers</div>
+        <u>Minsoo Kim</u>, Kyuhong Shim, Seongmin Park, Wonyong Sung, Jungwook Choi<br />
+        <span class="venue">EACL 2023</span><br />
+        <a href="https://aclanthology.org/2023.eacl-main.64">paper</a> | <a href="https://github.com/MarsJacobs/ti-kd-qat">code</a>
+      </div>
+
+      <div class="pub-item selected">
+        <div class="title">Understanding and Improving Knowledge Distillation for Quantization Aware Training of Large Transformer Encoders</div>
+        <u>Minsoo Kim</u>, Sihwa Lee, Suk-Jin Hong, Du-Seong Chang, Jungwook Choi<br />
+        <span class="venue">EMNLP 2022</span><br />
+        <a href="https://aclanthology.org/2022.emnlp-main.450">paper</a> | <a href="https://github.com/MarsJacobs/kd-qat-large-enc">code</a>
+      </div>
+
+      <div class="pub-item">
+        <div class="title">NN-LUT: Neural Approximation of Non-Linear Operations for Efficient Transformer Inference</div>
+        Joonsang Yu, Junki Park, Seongmin Park, <u>Minsoo Kim</u>, Sihwa Lee, Dong Hyun Lee, Jungwook Choi<br />
+        <span class="venue">DAC 2022</span><br />
+        <a href="https://arxiv.org/abs/2112.02191">paper</a>
+      </div>
+    </div>
+
+    <h2>Honors &amp; Awards</h2>
+    <div class="entries">
+      <p><strong>Reviewer Award</strong> &mdash; EMNLP 2024 (Outstanding), ICML 2026 (Gold)</p>
+      <p><strong>3rd Place</strong>, AICAS Grand Challenge 2024 (SW&amp;HW Co-Optimization for LLM)</p>
+      <p><strong>Winner</strong>, Qualcomm Innovation Fellowship Korea 2023</p>
+      <p><strong>1st Place</strong>, AI Grand Challenge 2020 (Korea Ministry of Science and ICT)</p>
+    </div>
+
+    <h2>Academic Services</h2>
+    <div class="entries">
+      <p><strong>Conference Reviewer</strong>: NeurIPS, ICLR, ICML, COLM, AAAI, ACL Rolling Review (ARR)</p>
+      <p><strong>Student Volunteer</strong>: EMNLP 2022&ndash;2024</p>
+    </div>
+
+    <script>
+      (function () {
+        const btnSelected = document.getElementById('btn-selected');
+        const btnAll = document.getElementById('btn-all');
+        const items = Array.from(document.querySelectorAll('.pub-item'));
+
+        function setView(view) {
+          const sel = view === 'selected';
+          items.forEach((el) => {
+            el.style.display = !sel || el.classList.contains('selected') ? '' : 'none';
+          });
+          btnSelected.classList.toggle('active', sel);
+          btnSelected.setAttribute('aria-selected', sel);
+          btnAll.classList.toggle('active', !sel);
+          btnAll.setAttribute('aria-selected', !sel);
+          try {
+            const url = new URL(window.location);
+            url.searchParams.set('view', view);
+            history.replaceState({}, '', url);
+          } catch (e) {
+            /* file:// may block history API; ignore */
+          }
+        }
+
+        btnSelected.addEventListener('click', () => setView('selected'));
+        btnAll.addEventListener('click', () => setView('all'));
+
+        const params = new URLSearchParams(window.location.search);
+        setView(params.get('view') === 'all' ? 'all' : 'selected');
+      })();
+    </script>
+  </body>
+</html>
